@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+
+  font-family: "Red Hat Display", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.cartao {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.cartao .imagem-cartao {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.cartao .infos .titulo-descricao {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.cartao .infos .titulo-descricao h1 {
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.cartao .infos .titulo-descricao p {
+  color: hsl(224, 23%, 55%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  line-height: 1.7;
+  font-weight: 500;
+  width: 350px;
+  font-size: 16px;
+}
+
+.cartao .plano {
+  background-color: hsl(225, 100%, 98%);
+  padding: 15px;
+  border: 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100px;
+}
+
+.cartao .plano .descricao-plano {
+  padding: 20px;
+  margin-right:10%;
+  font-weight: 500;
+}
+.cartao .plano .descricao-plano p {
+  color: hsl(224, 23%, 55%);
+}
+
+
+.cartao .botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.cartao .botoes button {
+  width: 80%;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  color: white;
+  padding: 18px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.205)
+}
+
+.cartao .botoes a {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  font-size: 15px;
+  padding: 30px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
